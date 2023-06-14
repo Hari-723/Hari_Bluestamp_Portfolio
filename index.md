@@ -79,5 +79,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+# Starter Project
+For My starter Project I made the Simon Says Game. The game works by following a pattern which is displayed by the game, in the correct order. If the order is not followed, or if any button is not pressed, the user automatically losess, and the game restarts. The components used include a microcontroller, a buzzer, capacitors, a resistor, leds, slide switches, battery clips, batteries, a button pad and besels, Standoffs and screws, and a PCB Board. First, I soldered the capacitors, the resistor, the microcontroller, and the buzzer to the bottom of the board. Then I turned over the board and soldered on the battery clips, leds, and the slide switches. After that I had to screw in the button pad and the bezel using screws and standoffs, and placed the batteries into the battery holders. then my game was completed. One challenge which i faced while making the game included the game not responding to any presses by the user. I tried to clean the board, and where the wiring which completes the circuit is, but that didn't work, causing me to restart, but allowing me to finish the game quicker. 
 
 To watch the BSE tutorial on how to create a portfolio, click here.
