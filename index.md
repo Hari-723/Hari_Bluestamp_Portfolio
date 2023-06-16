@@ -18,7 +18,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 # Second Milestone
-
+My second milestone includes setting up the camera, running the required code, and testing the model. After plugging in the camera, I ran the command sudo raspi-config to go to the settings. Then i went to interface options, and enabled legacy camera support. One of the challenges I faced was trying to test the camera, because I wasn't able to test it due to the terminal window saying that there was an error with no camera detected, but towards the end when i needed the live video feed, the camera was detected. After I setup the camera, I entered the directory in which the pretrained model, 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
