@@ -18,6 +18,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 # Second Milestone
+
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
@@ -26,6 +27,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - 
 
 # First Milestone
+My first milestone included setting up the raspbarry pi 400 and the 1080p 8mp Arducam, as well as downloading the required software and and libraries to carry out the model. First I placed an SD card into my laptop, in order to download the software required for the raspberry pi 400 to run onto the sd card. I had to use a microSD to SD card converter to place the SD card in my laptop because the pi 400 only has a slot for a microSD card and not for and SD Card.  Then I plugged in the microHDMI to HDMI Cable to the USB Capture card, which is plugged into my laptop. The function of the capture card is to allow the audio and video of the raspberry pi to be streamed to my laptop. I am using OBS Studio as the software in which the audio and video of the raspberry pi will be streamed to. Then I plugged in my Canakit USB-C power supply to my raspberry pi and my outlet, which allowed for my pi 400 to be powered oon. After this, I had to plug in an external mouse to the pi 400 because the laptop's keyboard and mouse dont work with the pi (keyboard is already built into the pi 400, so no necessity for an external keyboard). The required donwloads for my model includes downloading open cv, tenorflow light, and a pretrained model to use. I used a pretrained model insteadr of training my own model because training my own model would require tens of thousdnds of pictures. I used tenorflow light instead of tensorflow because tensorflow lite on t
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
