@@ -71,11 +71,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 # Starter Project
 For My starter Project I made the Simon Says Game. The game works by following a pattern which is displayed by the game, in the correct order. If the order is not followed, or if any button is not pressed, the user automatically losess, and the game restarts. The components used include a microcontroller, a buzzer, capacitors, a resistor, leds, slide switches, battery clips, batteries, a button pad and besels, Standoffs and screws, and a PCB Board. First, I soldered the capacitors, the resistor, the microcontroller, and the buzzer to the bottom of the board. Then I turned over the board and soldered on the battery clips, leds, and the slide switches. After that I had to screw in the button pad and the bezel using screws and standoffs, and placed the batteries into the battery holders. then my game was completed. One challenge which i faced while making the game included the game not responding to any presses by the user. I tried to clean the board, and where the wiring which completes the circuit is, but that didn't work, causing me to restart, but allowing me to finish the game quicker.
 
