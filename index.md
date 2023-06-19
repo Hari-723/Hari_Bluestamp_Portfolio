@@ -25,6 +25,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 My second milestone includes setting up the camera, running the required code, and testing the model. After plugging in the camera, I ran the command sudo raspi-config to go to the settings. Then I went to interface options and enabled legacy camera support. One of the challenges I faced was trying to test the camera because I wasn't able to test it due to the terminal window saying that there was an error with no camera detected, but towards the end when I needed the live video feed, the camera was detected. After I set up the camera, I entered the directory in which the pre-trained model was located and ran the model. After the model ran, a new popup window opened with the live video feed from the Arducam. I tested the model by putting objects such as a cellphone, a laptop, and a chair in front of the camera, and it correctly detected these objects. My next steps would be streamlining my model to detect a few certain objects and training the model by myself. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MZ-rnKBLxSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 # First Milestone
