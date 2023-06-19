@@ -1,5 +1,5 @@
 # Object Detection with Raspberry Pi and Simon Says
-<!---Replace_this_text_with_a_brief_description_(2-3 sentences)_of_your_project._This_description_should_draw_the_reader_in_and_make_them_interested_in_what you've_built._You_can_include_what_the_biggest_hallenges,_takeaways,_and_triumphs_from_completing_the_project_were._As_you_complete_your_portfolio, remember your_audience_is_less_familiar_than_you_are_with_all_that_your_project_entails!-->
+<!---Automatic Detection of an object, with a confidence level when placed in front of a camera, is what this model does. Using Raspberry Pi, Open CV, and Tensorflow Lite, I was able to run and test an object detection model.-->
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -12,7 +12,7 @@
 ![Headstone Image](logo.svg)
 -->
   
-# Final Milestone
+<!---# Final Milestone-->
 <!---For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
