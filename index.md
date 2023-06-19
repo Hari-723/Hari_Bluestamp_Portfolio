@@ -1,5 +1,5 @@
 # Object Detection with Raspberry Pi and Simon Says
-Automatic detection of an object, with a confidence level when placed in front of a camera, is what this model does. Using Raspberry Pi, Open CV, and Tensorflow Lite, I was able to run and test an object detection model.
+Instant detection of an object, with a confidence level when placed in front of a camera, is what this model does. Using Raspberry Pi, Open CV, and Tensorflow Lite, I was able to run and test an object detection model.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
