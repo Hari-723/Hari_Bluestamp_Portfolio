@@ -1,5 +1,5 @@
 # Object Detection with Raspberry Pi and Simon Says
-<Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!>
+<Replace_this_text_with_a_brief_description_(2-3 sentences)_of_your_project._This_description_should_draw_the_reader_in_and_make_them_interested_in_what you've_built._You_can_include_what_the_biggest_hallenges,_takeaways,_and_triumphs_from_completing_the_project_were._As_you_complete_your_portfolio, remember your_audience_is_less_familiar_than_you_are_with_all_that_your_project_entails!>
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
