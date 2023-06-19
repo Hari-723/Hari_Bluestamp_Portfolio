@@ -5,25 +5,25 @@
 |:--:|:--:|:--:|:--:|
 | Hari V | Mission San Jose High School | Computer Science | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**--->
 
 ![Headstone Image](logo.svg)
   
 # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
+<!---For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- What you hope to learn in the future after everything you've learned at BSE-->
 
 
 # Second Milestone
 My second milestone includes setting up the camera, running the required code, and testing the model. After plugging in the camera, I ran the command sudo raspi-config to go to the settings. Then I went to interface options and enabled legacy camera support. One of the challenges I faced was trying to test the camera because I wasn't able to test it due to the terminal window saying that there was an error with no camera detected, but towards the end when I needed the live video feed, the camera was detected. After I set up the camera, I entered the directory in which the pre-trained model was located and ran the model. After the model ran, a new popup window opened with the live video feed from the Arducam. I tested the model by putting objects such as a cellphone, a laptop, and a chair in front of the camera, and it correctly detected these objects. My next steps would be streamlining my model to detect a few certain objects and training the model by myself. 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+<!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- What needs to be completed before your final milestone -->
 - 
 
 # First Milestone
@@ -39,7 +39,7 @@ For your first milestone, describe what your project is and how you plan to buil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5RkA6z8jvus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-# Schematics 
+<!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
@@ -69,7 +69,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|-->
 
 # Starter Project
 For My starter Project I made the Simon Says Game. The game works by following a pattern which is displayed by the game, in the correct order. If the order is not followed, or if any button is not pressed, the user automatically losess, and the game restarts. The components used include a microcontroller, a buzzer, capacitors, a resistor, leds, slide switches, battery clips, batteries, a button pad and besels, Standoffs and screws, and a PCB Board. First, I soldered the capacitors, the resistor, the microcontroller, and the buzzer to the bottom of the board. Then I turned over the board and soldered on the battery clips, leds, and the slide switches. After that I had to screw in the button pad and the bezel using screws and standoffs, and placed the batteries into the battery holders. then my game was completed. One challenge which i faced while making the game included the game not responding to any presses by the user. I tried to clean the board, and where the wiring which completes the circuit is, but that didn't work, causing me to restart, but allowing me to finish the game quicker.
