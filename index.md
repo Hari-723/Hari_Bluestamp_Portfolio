@@ -76,15 +76,15 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi 400 | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Raspberry Pi 400 | The device on which the code and the model are run on | $98.00 | <a href="https://www.amazon.com/Raspberry-400-Computer-Kit-RPI400-US/dp/B08MYVQW1S/ref=sr_1_3?crid=13YPAIJE5PFCE&keywords=raspberry+pi+400&qid=1687277135&sprefix=raspberry+pi+400%2Caps%2C148&sr=8-3"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Logitech M185 | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Logitech M185 | External Mouse which works with the raspberry pi | $11.99 | <a href="https://www.amazon.com/Logitech-M185-Wireless-Mouse-910-003888/dp/B004YAVF8I/ref=sr_1_4?crid=2YYMS9DE0VR3Q&keywords=logitech%2Bm185&qid=1687277254&sprefix=logitech%2Bm185%2Caps%2C146&sr=8-4&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Arducam 8MP 1080P USB Camera Module for Raspberry Pi | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arducam 8MP 1080P USB Camera Module for Raspberry Pi | Gives the live video feed where the objects are detected | $29.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | 4k HDMI Video Capture Card | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Canakit USB C Power Supply0 | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Canakit USB C Power Supply | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | 64 GB micro SDcard to SD Card adapter | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|-->
