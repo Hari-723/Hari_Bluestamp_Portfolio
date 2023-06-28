@@ -72,13 +72,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Logitech M185 | External Mouse which works with the raspberry pi | $11.99 | <a href="https://www.amazon.com/Logitech-M185-Wireless-Mouse-910-003888/dp/B004YAVF8I/ref=sr_1_4?crid=2YYMS9DE0VR3Q&keywords=logitech%2Bm185&qid=1687277254&sprefix=logitech%2Bm185%2Caps%2C146&sr=8-4&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Arducam 8MP 1080P USB Camera Module for Raspberry Pi | Gives the live video feed where the objects are detected | $29.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arducam 8MP 1080P USB Camera Module for Raspberry Pi | Gives the live video feed where the objects are detected | $30.00 | <a href="https://www.amazon.com/Arducam-Camera-Raspberry-Windows-Android/dp/B07YHK63DS/ref=sr_1_1_sspa?crid=3NROKHUG4NWP6&keywords=Arducam+8MP+1080P+USB+Camera+Module+for+Raspberry+Pi&qid=1687967026&sprefix=%2Caps%2C402&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| 4k HDMI Video Capture Card | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 4k HDMI Video Capture Card | Used to help display the Raspberry Pi on OBS Studio, and allows to use my laptop as a monitor  | $15.99 | <a href="https://www.amazon.com/LinkBand-Capture-Camcorder-Streaming-Nintendo/dp/B089ZWX5MY/ref=sr_1_4?keywords=4k+hdmi+video+capture+card&qid=1687967102&sprefix=4k+HDMI+Vide%2Caps%2C169&sr=8-4"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Canakit USB C Power Supply | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Canakit USB C Power Supply | Supplies power to the raspberry pi | $10.99 | <a href="https://www.amazon.com/CanaKit-Raspberry-Power-Supply-PiSwitch/dp/B07TSFYXBC/ref=sr_1_4?crid=3KPZ6OSQILGUA&keywords=canakit+usb+c+power+supply&qid=1687967332&sprefix=canakit+usb+c+power+supply%2Caps%2C142&sr=8-4"> |
 |:--:|:--:|:--:|:--:|
-| 64 GB micro SDcard to SD Card adapter | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 64 GB micro SDcard to SD Card adapter | storage device to store the downloaded Raspberry Pi os, and allows for the software to be used on the Raspberry Pi 400  | $6.99 | <a href="https://www.amazon.com/Micro-Center-Class-Memory-Adapter/dp/B07YLZ8D1Y/ref=sr_1_10?crid=16R1RHOD1IKYU&keywords=micro%2Bcenter%2Bmicrosd%2B64gb%2Bwith%2Bsd%2Bcard%2Bconverter&qid=1687967985&sprefix=micro%2Bcenter%2Bmcrosd%2B64gb%2Bwith%2Bsd%2Bcard%2Bconverte%2Caps%2C158&sr=8-10&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|-->
 
 
