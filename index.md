@@ -10,7 +10,7 @@ What Instant detection of an object, with a confidence level when placed in fron
 
 
 
-![Headstone Image](logo.svg)
+![Headstone Image](Hari-Project.jpg)
 -->
   
 # Final Milestone
