@@ -77,7 +77,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | 4k HDMI Video Capture Card | Used to help display the Raspberry Pi on OBS Studio, and allows to use my laptop as a monitor  | $15.99 | <a href="https://www.amazon.com/LinkBand-Capture-Camcorder-Streaming-Nintendo/dp/B089ZWX5MY/ref=sr_1_4?keywords=4k+hdmi+video+capture+card&qid=1687967102&sprefix=4k+HDMI+Vide%2Caps%2C169&sr=8-4"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Canakit USB C Power Supply | Supplies power to the raspberry pi | $10.99 | <a href="https://www.amazon.com/CanaKit-Raspberry-Power-Supply-PiSwitch/dp/B07TSFYXBC/ref=sr_1_4?crid=3KPZ6OSQILGUA&keywords=canakit+usb+c+power+supply&qid=1687967332&sprefix=canakit+usb+c+power+supply%2Caps%2C142&sr=8-4"> |
+| Canakit USB C Power Supply | Supplies power to the raspberry pi | $10.99 | <a href="https://www.amazon.com/CanaKit-Raspberry-Power-Supply-PiSwitch/dp/B07TSFYXBC/ref=sr_1_4?crid=3KPZ6OSQILGUA&keywords=canakit+usb+c+power+supply&qid=1687967332&sprefix=canakit+usb+c+power+supply%2Caps%2C142&sr=8-4"> Link  </a> |
 |:--:|:--:|:--:|:--:|
 | 64 GB micro SDcard to SD Card adapter | storage device to store the downloaded Raspberry Pi os, and allows for the software to be used on the Raspberry Pi 400  | $6.99 | <a href="https://www.amazon.com/Micro-Center-Class-Memory-Adapter/dp/B07YLZ8D1Y/ref=sr_1_10?crid=16R1RHOD1IKYU&keywords=micro%2Bcenter%2Bmicrosd%2B64gb%2Bwith%2Bsd%2Bcard%2Bconverter&qid=1687967985&sprefix=micro%2Bcenter%2Bmcrosd%2B64gb%2Bwith%2Bsd%2Bcard%2Bconverte%2Caps%2C158&sr=8-10&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|-->
