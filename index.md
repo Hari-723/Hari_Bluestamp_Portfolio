@@ -12,6 +12,10 @@ What Instant detection of an object, with a confidence level when placed in fron
 <!---![Headstone Image](Hari-Project.jpg)-->
 <img src="Hari-Project.jpg" width="700" height="500">
 
+# Final Project with modifications
+I was able to train my own model by first creating and labeling 3 classes (Pickup truck, SUV, and Sedan). I first downloaded moaround 300 pictures from all these classes, separate the images into 3 different types, training validating, and testing, and then used a tool called labeling, to label my images. After I labelled my images using bounding boes, I exported all the labels using the same name, using yolo format, which gives the first value in the text file as the class name, and the next 4 valuesin the same line as the values of the coordinates of the bounding boes froma  range of 0-1. coordinates of the bounding box. After IAfter this I uploaded all my images and labells into a google drive folder, and created a google colab. I made sure to keep the google colab animages and yolo files in the same folder. After this I created a yaml file which stored all the names of the classes, and which yolo number corresponds to the class name. After this I imported the yaml file into the folder with all the images and yolo text files. Then using yoloV* i was able to run the training, validation, and testing. In the beginning, the model wasn't wworking, but toward sthe end after chan ng a few directories, and a few code changes, I was able to get the model to relatively accurately predict what type of car different pictures are. 
+
+
   
 # Final Milestone
 My Final milestone includes finalizing the model and using CAD to create a case and a stand for the camera. After the initial testing of the model, I continued testing the model with other, less common objects, to see the range of objects which the model detects, and realized the model only detects more common objects such as electronics, common vehicles, and household items. 
