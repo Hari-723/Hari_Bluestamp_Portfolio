@@ -48,19 +48,105 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 -->
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+<!---Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 ```python
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+!pip install easyocr
+!pip install imutils
 
-void loop() {
-  // put your main code here, to run repeatedly:
+import cv2
+from matplotlib import pyplot as plt
+import numpy as np
+import imutils
+import easyocr
+import math
 
-}
+img = cv2.imread('Imagename.filetype')
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+plt.imshow(cv2.cvtColor(gray, cv2.COLOR_BGR2RGB))
+
+visible = 0
+count2 = 35
+artic = []
+result = []
+if result == artic:
+  for e in range (0,5):
+    count1 = 50
+    if result == artic:
+      for x in range (0,8):
+        count = 50
+        if result == artic:
+          """if visible == '1':
+          print ("wirihgirwng")
+          break"""
+          for y in range (0,8):
+            if result == artic:
+              bfilter = cv2.bilateralFilter(gray, count2, count2, count2) #Noise reduction
+              edged = cv2.Canny(bfilter, count1, count) #Edge detection
+              """visible = input("1 if you are can see license plate and 2 can't see the license plate number correctly")
+              print ("visible value: ")
+              print (visible)
+              if visible == '1':
+                print ("fkjashfkjhsfdkjdhflksjdhajsdfkh")
+                break"""
+
+              #plt.imshow(cv2.cvtColor(edged, cv2.COLOR_BGR2RGB))
+
+              keypoints = cv2.findContours(edged.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+              contours = imutils.grab_contours(keypoints)
+              contours = sorted(contours, key=cv2.contourArea, reverse=True)[:100]
+              #print (cv2.contourArea)
+
+
+              location = None
+              approximate = None
+              for contour in contours:
+                approx = cv2.approxPolyDP(contour, 10, True)
+                if len(approx) == 4:
+                  approximate = approx
+                  location = approx
+                  break
+              print (location)
+
+              mask = np.zeros(gray.shape, np.uint8)
+              new_image = cv2.drawContours(mask, [location], 0,255, -1)
+              new_image = cv2.bitwise_and(img, img, mask=mask)
+
+              plt.imshow(cv2.cvtColor(new_image, cv2.COLOR_BGR2RGB))
+
+              (x,y) = np.where(mask==255)
+              (x1, y1) = (np.min(x), np.min(y))
+              (x2, y2) = (np.max(x), np.max(y))
+              cropped_image = gray[x1:x2+1, y1:y2+1]
+
+              reader = easyocr.Reader(['en'])
+              result = reader.readtext(cropped_image)
+              print (result)
+              print (artic)
+              if result == artic:
+                pass
+              else:
+                text = result[0][-2]
+                font = cv2.FONT_HERSHEY_SIMPLEX
+                res = cv2.putText(img, text=text, org=(approx[0][0][0], approx[1][0][1]+60), fontFace=font, fontScale=1, color=(0,255,0), thickness=2, lineType=cv2.LINE_AA)
+                res = cv2.rectangle(img, tuple(approx[0][0]), tuple(approx[2][0]), (0,255,0),3)
+                #plt.imshow(cv2.cvtColor(res, cv2.COLOR_BGR2RGB))
+
+
+
+
+              count = count + 50
+              check = 1
+              print (count)
+              plt.imshow(cv2.cvtColor(edged, cv2.COLOR_BGR2RGB))
+              plt.imshow(cv2.cvtColor(new_image, cv2.COLOR_BGR2RGB))
+              print (count1)
+              print (count2)
+
+        count1 = count1 + 50
+    count2 = count2 - 7
+
+
 ```
 
 # Bill of Materials
