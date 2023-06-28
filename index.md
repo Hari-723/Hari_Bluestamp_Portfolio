@@ -51,9 +51,11 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 <!---Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 ```python
-!pip install easyocr
+#install required packages
+!pip install easyocr 
 !pip install imutils
 
+#import required packages
 import cv2
 from matplotlib import pyplot as plt
 import numpy as np
@@ -61,9 +63,9 @@ import imutils
 import easyocr
 import math
 
-img = cv2.imread('Imagename.filetype')
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-plt.imshow(cv2.cvtColor(gray, cv2.COLOR_BGR2RGB))
+img = cv2.imread('Imagename.filetype') #import image
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #convert image into grayscale
+plt.imshow(cv2.cvtColor(gray, cv2.COLOR_BGR2RGB))#display image
 
 visible = 0
 count2 = 35
@@ -76,57 +78,48 @@ if result == artic:
       for x in range (0,8):
         count = 50
         if result == artic:
-          """if visible == '1':
-          print ("wirihgirwng")
-          break"""
           for y in range (0,8):
             if result == artic:
               bfilter = cv2.bilateralFilter(gray, count2, count2, count2) #Noise reduction
               edged = cv2.Canny(bfilter, count1, count) #Edge detection
-              """visible = input("1 if you are can see license plate and 2 can't see the license plate number correctly")
-              print ("visible value: ")
-              print (visible)
-              if visible == '1':
-                print ("fkjashfkjhsfdkjdhflksjdhajsdfkh")
-                break"""
+              
+              plt.imshow(cv2.cvtColor(edged, cv2.COLOR_BGR2RGB)) #show image after noise reduction and edge detection
 
-              #plt.imshow(cv2.cvtColor(edged, cv2.COLOR_BGR2RGB))
-
-              keypoints = cv2.findContours(edged.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-              contours = imutils.grab_contours(keypoints)
-              contours = sorted(contours, key=cv2.contourArea, reverse=True)[:100]
+              keypoints = cv2.findContours(edged.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)#finds contours within the image
+              contours = imutils.grab_contours(keypoints)#gets keypoints of the contours
+              contours = sorted(contours, key=cv2.contourArea, reverse=True)[:100]#sorts contours from highest area to lowest area
               #print (cv2.contourArea)
 
 
               location = None
               approximate = None
-              for contour in contours:
+              for contour in contours:#loops through contours
                 approx = cv2.approxPolyDP(contour, 10, True)
-                if len(approx) == 4:
+                if len(approx) == 4:#checks if there are 4 key points
                   approximate = approx
                   location = approx
                   break
               print (location)
 
-              mask = np.zeros(gray.shape, np.uint8)
+              mask = np.zeros(gray.shape, np.uint8)#creates mask around contour
               new_image = cv2.drawContours(mask, [location], 0,255, -1)
               new_image = cv2.bitwise_and(img, img, mask=mask)
 
-              plt.imshow(cv2.cvtColor(new_image, cv2.COLOR_BGR2RGB))
+              plt.imshow(cv2.cvtColor(new_image, cv2.COLOR_BGR2RGB))#plots new image
 
-              (x,y) = np.where(mask==255)
+              (x,y) = np.where(mask==255)#gets cordinates to crop the image
               (x1, y1) = (np.min(x), np.min(y))
               (x2, y2) = (np.max(x), np.max(y))
               cropped_image = gray[x1:x2+1, y1:y2+1]
 
               reader = easyocr.Reader(['en'])
-              result = reader.readtext(cropped_image)
+              result = reader.readtext(cropped_image)#reads text from the cropped image
               print (result)
               print (artic)
-              if result == artic:
+              if result == artic:#checks if any text is detected or not
                 pass
               else:
-                text = result[0][-2]
+                text = result[0][-2]#code to print license plate number onto picture
                 font = cv2.FONT_HERSHEY_SIMPLEX
                 res = cv2.putText(img, text=text, org=(approx[0][0][0], approx[1][0][1]+60), fontFace=font, fontScale=1, color=(0,255,0), thickness=2, lineType=cv2.LINE_AA)
                 res = cv2.rectangle(img, tuple(approx[0][0]), tuple(approx[2][0]), (0,255,0),3)
@@ -150,8 +143,7 @@ if result == artic:
 ```
 
 # Bill of Materials
-Here's where you'll list the parts of your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
