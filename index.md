@@ -5,13 +5,12 @@ What Instant detection of an object, with a confidence level when placed in fron
 |:--:|:--:|:--:|:--:|
 | Hari V | Mission San Jose High School | Computer Science | Incoming Senior
 
-<!---
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+
 
 
 
 ![Headstone Image](Hari-Project.jpg)
--->
+
   
 # Final Milestone
 My Final milestone includes finalizing the model and using Cad to create a case and a stand for the camera. After the initial testing of the model, I continued testing the model with other, less common objects, to see the range of objects which the model detects, and realized the model only detects more common objects such as electronics, common vehicles, and household items. 
