@@ -9,8 +9,8 @@ Using Raspberry Pi, Open CV, and Tensorflow Lite, I was able to run and test an 
 
 
 
-<!---![Headstone Image](Hari-Project.jpg)-->
-<img src="Hari-Project.jpg" width="700" height="500">
+<!---![Headstone Image](Hari-Project.jpg)--> 
+<img src="Hari-Project.jpg" width="500" height="400"> <img src="EDGEDFINAL.jpg.png" width="300" height="200">
 
 # Final Project with modifications
 I was able to train my own model by first creating and labeling 3 classes (Pickup truck, SUV, and Sedan). I first downloaded around 300 pictures from all these classes, separate the images into 3 different types, training validating, and testing, and then used a tool called labeling, to label my images. After I labeled my images using bounding boxes, I exported all the labels using the same name, using Yolo format, which gives the first value in the text file as the class name, and the next 4 values the same line as the values of the coordinates of the bounding boxes from a  range of 0-1. coordinates of the bounding box. After this, I uploaded all my images and labels into a google drive folder and created a Google colab. I made sure to keep the google collab images and Yolo files in the same folder. After this, I created a YAML file that stored all the names of the classes, and which yolo number corresponds to the class name. After this, I imported the YAML file into the folder with all the images and Yolo text files. Then using yoloV8 I was able to run the training, validation, and testing. In the beginning, the model wasn't working, but toward the end after chan ng a few directories, and a few code changes, I was able to get the model to relatively accurately predict what type of car different pictures are. 
