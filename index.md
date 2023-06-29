@@ -1,5 +1,5 @@
 # Object Detection using Machine Learning with Raspberry Pi 
-Using Raspberry Pi, Open CV, and Tensorflow Lite, I was able to run and test an object detection model.
+Using Raspberry Pi, Open CV, and Tensorflow Lite, I was able to run and test an object detection model using machine learning in python. The model is able to detect around 80 common objects including (cars, chairs, laptops, and other common objects). After finishing this, I was able to create my own machine
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -21,8 +21,11 @@ I was also able to make a license plate detector using Python. There wasn't any 
   
 # Final Milestone
 My Final milestone includes finalizing the model and using CAD to create a case and a stand for the camera. After the initial testing of the model, I continued testing the model with other, less common objects, to see the range of objects which the model detects, and realized the model only detects more common objects such as electronics, common vehicles, and household items. 
+
 After I finished testing the model and being satisfied with the model, I decided to make a case and a stand for the camera because I had to manually set the camera, and hold it on the table when I was testing it, causing inconvenience. I used the shape to make the case and created a hole around the center of the front face of the case so the camera would be visible and not be blocked by the case. I created a hole on the top of the case so the camera could slide into the case, and I created a hole on the bottom right on the back side of the case so I could plug the camera into the Raspberry Pi using a connector and a USB cable. I created a stand that was thick enough to hold the case, and sturdy enough so the stand wouldn't break. I created 2 stands, one for each side of the case so it would be sturdy and not too flimsy.
+
 I faced a challenge after the case and stands were printed as I realized the camera was not fitting into the slot in the case as the camera was too thick. I didn't account for the maximum thickness at any 2 points and only accounted for the maximum thickness at a single point causing the camera not to fit fully into the case. This caused me to find a solution, to Dremel. the hole for the connector, all the way to the top of the case, so the connector would slide in and would not be dependent on the thickness of the case. 
+
 For my next modification I would be training my own model and labeling my own pictures using bounding boxes, for a model which differentiates between different types of cars such as an SUV and a pickup truck.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bRFJf-OkRVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!--- For your final milestone, explain the outcome of your project. Key details to include are:
