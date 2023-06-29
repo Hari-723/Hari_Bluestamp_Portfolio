@@ -60,6 +60,27 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 <!---Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 ```python
+#Custom Object detection code (different types of license plates)
+
+!pip install ultralytics
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+%cd /content/drive/MyDrive/Classes/YOLOv8
+
+from ultralytics import yolo
+%cd /content/drive/MyDrive/Classes/YOLOv8
+!yolo task=detect mode=train model=yolov8s.pt data=data.yaml epochs=40 imgsz=224
+
+!yolo task=detect mode=predict model=runs/detect/train8/weights/best.pt conf=0.25 source=data/test/images
+
+
+
+
+
+#license plate detector code
+
 #install required packages
 !pip install easyocr 
 !pip install imutils
