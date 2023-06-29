@@ -1,5 +1,5 @@
 # Object Detection using Machine Learning with Raspberry Pi 
-Using Raspberry Pi, Open CV, and Tensorflow Lite, I was able to run and test an object detection model using machine learning in python. The model is able to detect around 80 common objects including (cars, chairs, laptops, and other common objects). After finishing this, I was able to create my own machine
+Using Raspberry Pi, Open CV, and Tensorflow Lite, I was able to run and test an object detection model using machine learning in Python. The model is able to detect around 80 common objects including (cars, chairs, laptops, and other common objects). After finishing this, I was able to train and create my own machine-learning model using yolov8 through Python. I labeled my own images, and put them through the training process of the model, making sure to split up the dataset into training, validation, and testing datasets. I was able to get a relatively good accuracy within my model. After I finished creating my own model, I created another model which would detect license plates. The model would detect the license plate, crop the image, and then use an optical character recognition software known as easyocr to read the text within the license plate and output the text.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
