@@ -189,7 +189,7 @@ if result == artic:
 |:--:|:--:|:--:|:--:|
 | 64 GB micro SDcard to SD Card adapter | storage device to store the downloaded Raspberry Pi os, and allows for the software to be used on the Raspberry Pi 400  | $6.99 | <a href="https://www.amazon.com/Micro-Center-Class-Memory-Adapter/dp/B07YLZ8D1Y/ref=sr_1_10?crid=16R1RHOD1IKYU&keywords=micro%2Bcenter%2Bmicrosd%2B64gb%2Bwith%2Bsd%2Bcard%2Bconverter&qid=1687967985&sprefix=micro%2Bcenter%2Bmcrosd%2B64gb%2Bwith%2Bsd%2Bcard%2Bconverte%2Caps%2C158&sr=8-10&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| MicroHDMI to HDMI Cable | Connects Raspberry Pi 400 to HDMI Capture card, to display Raspberry Pi content on laptop[  | $8.99 | <a href="https://www.amazon.com/UGREEN-Adapter-Ethernet-Compatible-Raspberry/dp/B06WWQ7KLV/ref=sr_1_1_sspa?keywords=micro+hdmi+to+hdmi+cable&qid=1687972548&sprefix=microhdmi+t%2Caps%2C231&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+| MicroHDMI to HDMI Cable | Connects Raspberry Pi 400 to HDMI Capture card, to display Raspberry Pi content on laptop  | $8.99 | <a href="https://www.amazon.com/UGREEN-Adapter-Ethernet-Compatible-Raspberry/dp/B06WWQ7KLV/ref=sr_1_1_sspa?keywords=micro+hdmi+to+hdmi+cable&qid=1687972548&sprefix=microhdmi+t%2Caps%2C231&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 
